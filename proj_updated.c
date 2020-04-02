@@ -8,7 +8,6 @@ void lock_init(struct lock lok){
     lok.lock = 0;
 }
 struct bridge{
-
     int north_waiting;
     int north_crossing;
     int north_consecutive;
